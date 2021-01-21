@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar6"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="@color/colorAccent">
+
+    </androidx.appcompat.widget.Toolbar>
+    <EditText
+        android:id="@+id/contact_Name"
+        android:layout_width="367dp"
+        android:layout_height="50dp"
+         android:drawablePadding="10dp"
+        android:ems="10"
+        android:fontFamily="sans-serif-black"
+        android:hint="@string/name"
+        android:inputType="text"
+        android:textIsSelectable="false"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center" />
+
+    <EditText
+        android:id="@+id/contact_subject"
+        android:layout_width="367dp"
+        android:layout_height="50dp"
+        android:drawablePadding="10dp"
+        android:ems="10"
+        android:fontFamily="sans-serif-black"
+        android:hint="Subject"
+        android:inputType="text"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center" />
+
+    <EditText
+        android:id="@+id/contact_message"
+        android:layout_width="367dp"
+        android:layout_height="350dp"
+        android:ems="10"
+        android:fontFamily="sans-serif-black"
+        android:hint="Message"
+        android:inputType="text"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center" />
+    <Button
+        android:id="@+id/submitMessageButton"
+        android:layout_width="367dp"
+        android:layout_height="50dp"
+        android:background="@color/colorAccent"
+        android:text="submit message"
+        android:textColor="@color/colourWhite"
+        android:fontFamily="@font/baloo"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center"
+        />
+
+</LinearLayout>

@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Healthy Tag</string>
+    <string name="loginButton">s\'identifier</string>
+    <string name="password">mot de passe</string>
+    <string name="registerhere">Vous n\'avez pas de compte? Inscrivez-vous ici!</string>
+    <string name="title_activity_settings">paramètres</string>
+    <string name="username">Nom d\'utilisateur</string>
+    <string name="yes" translatable="false">Oui</string>
+    <string name="welcomeString">Bienvenue</string>
+    <string name="verifiedDatabase" translatable="false">Ils fournissent la plus grande base de données vérifiée</string>
+    <string name="usernameempty" translatable="false">Le nom d\'utilisateur ne peut pas être vide</string>
+    <string name="updateProfile" translatable="false">Mettre à jour le profil</string>
+    <string name="surname" translatable="false">Nom de famille</string>
+    <string name="sugarIntake" translatable="false">Apport de sucre</string>
+    <string name="sugar" translatable="false">Sucre</string>
+    <string name="share" translatable="false">Partager</string>
+    <string name="selectProduct" translatable="false">Êtes-vous sûr de vouloir sélectionner ce produit ??</string>
+    <string name="selectNFC" translatable="false">Écrire sur une balise NFC</string>
+    <string name="searchHere" translatable="false">Cherche ici</string>
+    <string name="searchDatabase" translatable="false">Rechercher dans la base de données</string>
+    <string name="scanUpdateTag" translatable="false">Scannez votre tag NFC pour mettre à jour votre tag NFC</string>
+    <string name="scanTag" translatable="false">Scannez votre tag NFC pour lire votre tag NFC</string>
+    <string name="restaurantItems" translatable="false">158760 Articles de restaurant</string>
+    <string name="reset" translatable="false">Réinitialiser</string>
+    <string name="register" translatable="false">S\'inscrire</string>
+    <string name="proteinIntake" translatable="false">Apport de protéines</string>
+    <string name="protein" translatable="false">protéines</string>
+    <string name="profileUpdated" translatable="false">Le profil a été mis à jour</string>
+    <string name="profileNotUpdated" translatable="false">Le profil n\'a pas été mis à jour</string>
+    <string name="profile" translatable="false">Profil</string>
+    <string name="productName" translatable="false">Ajouter un produit</string>
+    <string name="passwordempty" translatable="false">Le mot de passe ne peut pas être vide</string>
+    <string name="nutritionalSettings" translatable="false">Paramètres nutritionnels</string>
+    <string name="nfcSummary" translatable="false">L\'activation de ce mode permettrait aux utilisateurs d\'écrire sur des balises NFC à l\'aide de la base de données API Nutritionix</string>
+    <string name="nfcDetected" translatable="false">Balise NFC détectée</string>
+    <string name="nfcAssessment" translatable="false">Évaluation NFC</string>
+    <string name="navigation_drawer_open" translatable="false">Ouvrir le tiroir de navigation</string>
+    <string name="navigation_drawer_close" translatable="false">Fermer le panneau de navigation</string>
+    <string name="name" translatable="false">Nom</string>
+    <string name="mode" translatable="false">Mode</string>
+    <string name="match" translatable="false">Désolé, nous n\'avons pu correspondre à aucun de vos aliments</string>
+    <string name="logout" translatable="false">Se déconnecter</string>
+    <string name="languageSupported" translatable="false">Langue prise en charge par:</string>
+    <string name="infoNutrition" translatable="false">Toutes les informations qui ont été fournies sont par Nutritionix</string>
+    <string name="incorrect" translatable="false">Données incorrectes saisies</string>
+    <string name="home" translatable="false">Accueil</string>
+    <string name="groceryItems" translatable="false">734185 produits d\'épicerie</string>
+    <string name="goalIntake" translatable="false">Apport calorique objectif</string>
+    <string name="goal" translatable="false">Objectif</string>
+    <string name="gender" translatable="false">Le sexe</string>
+    <string name="fatIntake" translatable="false">Apport de graisse</string>
+    <string name="fat" translatable="false">Graisse</string>
+    <string name="exists" translatable="false">User already exists</string>
+    <string name="enterGoal" translatable="false">Veuillez saisir l\'objectif dans lequel vous prévoyez que votre apport calorique quotidien sera</string>
+    <string name="emptyPin" translatable="false">Empty</string>
+    <string name="empty" translatable="false">Balise vide</string>
+    <string name="emailaddress" translatable="false">Adresse électronique</string>
+    <string name="discoverHere" translatable="false">Découvrez ici</string>
+    <string name="correctPin" translatable="false">Correcte</string>
+    <string name="correct" translatable="false">Corriger les détails saisis</string>
+    <string name="contactus" translatable="false">Nous contacter</string>
+    <string name="commonItems" translatable="false">13187 aliments courants</string>
+    <string name="cancel" translatable="false">Annuler</string>
+    <string name="calories" translatable="false">Calories</string>
+    <string name="calorieIntake" translatable="false">Apport calorique actuel</string>
+    <string name="calorieCount" translatable="false">Nombre de calories</string>
+    <string name="calorieCalculation" translatable="false">Calcul des calories</string>
+    <string name="age" translatable="false">Âge</string>
+    <string name="adminModeEnabled" translatable="false">Mode administrateur activé</string>
+    <string name="adminMode" translatable="false">Activer le mode administrateur</string>
+    <string name="addProduct" translatable="false">Ajouter un produit</string>
+    <string name="accountNotMade" translatable="false">Infructueux</string>
+    <string name="accountMade" translatable="false">Réussie</string>
+    <string name="aboutus" translatable="false">À propos de nous</string>
+    <string name="UncorrectPin" translatable="false">Broche incorrecte</string>
+    <string name="Settings" translatable="false">Paramètres</string>
+    <string name="Exit" translatable="false">Sortie</string>
+    <string name="Communication">la communication</string>
+    <string name="list">Liste des produits</string>
+</resources>

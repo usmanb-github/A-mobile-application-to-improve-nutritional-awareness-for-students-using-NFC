@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimaryDark">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar2"
+        android:layout_width="match_parent"
+        android:layout_height="?android:attr/actionBarSize"
+        android:background="@color/colorAccent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+    </androidx.appcompat.widget.Toolbar>
+
+<androidx.constraintlayout.widget.ConstraintLayout
+    android:layout_width="match_parent"
+    android:layout_height="160dp"
+    android:background="@color/colorAccent">
+
+    <ImageView
+        android:id="@+id/profileLogo"
+        android:layout_width="283dp"
+        android:layout_height="83dp"
+        android:layout_gravity="center"
+        android:layout_marginStart="72dp"
+        android:layout_marginLeft="72dp"
+        android:layout_marginEnd="72dp"
+        android:layout_marginRight="72dp"
+        android:contentDescription="@string/app_name"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/tag" />
+
+    <ImageView
+        android:id="@+id/profileIcon"
+        android:layout_width="182dp"
+        android:layout_height="91dp"
+        android:layout_gravity="center"
+        android:layout_marginStart="72dp"
+        android:layout_marginLeft="72dp"
+        android:layout_marginTop="72dp"
+        android:layout_marginEnd="72dp"
+        android:layout_marginRight="72dp"
+        android:contentDescription="@string/app_name"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.494"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/ic_person_black_24dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+    <EditText
+        android:id="@+id/profileName"
+        android:layout_width="357dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:drawablePadding="10dp"
+        android:ems="10"
+        android:fontFamily="@font/baloo"
+        android:hint="@string/name"
+        android:inputType="textPersonName"
+        android:textColorHint="@color/colourWhite" />
+
+    <EditText
+        android:id="@+id/profileSurname"
+        android:layout_width="357dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:drawablePadding="10dp"
+        android:ems="10"
+        android:fontFamily="@font/baloo"
+        android:hint="@string/surname"
+        android:inputType="textPersonName"
+        android:textColorHint="@color/colourWhite" />
+
+    <EditText
+        android:id="@+id/profileEmail"
+        android:layout_width="357dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:drawablePadding="10dp"
+        android:ems="10"
+        android:fontFamily="@font/baloo"
+        android:hint="@string/emailaddress"
+        android:inputType="textEmailAddress"
+        android:textColorHint="@color/colourWhite" />
+
+    <EditText
+        android:id="@+id/profileGender"
+        android:layout_width="357dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:drawablePadding="10dp"
+        android:ems="10"
+        android:fontFamily="@font/baloo"
+        android:hint="@string/gender"
+        android:inputType="textPersonName"
+        android:textColorHint="@color/colourWhite" />
+
+    <EditText
+        android:id="@+id/profileAge"
+        android:layout_width="357dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:drawablePadding="10dp"
+        android:ems="10"
+        android:fontFamily="@font/baloo"
+        android:hint="@string/age"
+        android:inputType="number"
+        android:textColorHint="@color/colourWhite" />
+
+    <Button
+        android:id="@+id/updateProfile"
+        android:layout_width="367dp"
+        android:layout_height="50dp"
+        android:background="@color/colorAccent"
+        android:text="@string/updateProfile"
+        android:textColor="@color/colourWhite"
+        android:fontFamily="@font/baloo"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center"
+        />
+
+
+
+</LinearLayout>

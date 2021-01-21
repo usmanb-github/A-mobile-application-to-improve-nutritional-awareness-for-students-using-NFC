@@ -1,0 +1,74 @@
+<!--
+  ~ Copyright 2018 The app Open Source Project
+  ~
+  ~ Licensed under the Apache License, Version 2.0 (the "License");
+  ~ you may not use this file except in compliance with the License.
+  ~ You may obtain a copy of the License at
+  ~
+  ~      http://www.apache.org/licenses/LICENSE-2.0
+  ~
+  ~ Unless required by applicable law or agreed to in writing, software
+  ~ distributed under the License is distributed on an "AS IS" BASIS,
+  ~ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  ~ See the License for the specific language governing permissions and
+  ~ limitations under the License.
+  -->
+
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+    <PreferenceCategory app:title="@string/mode">
+
+        <CheckBoxPreference
+            app:defaultValue="false"
+            app:key="adminmode"
+            app:summary="@string/nfcSummary"
+            app:title="@string/adminMode" />
+    </PreferenceCategory>
+
+    <PreferenceCategory app:title="@string/goal">
+        <EditTextPreference
+            android:defaultValue="2000"
+            android:dialogMessage="@string/enterGoal"
+            android:dialogTitle="Calories"
+            android:inputType="number"
+            android:key="calorie_goal"
+            android:selectAllOnFocus="true"
+            android:singleLine="true"
+            android:summary="@string/enterGoal"
+            android:title="@string/goalIntake" />
+        <EditTextPreference
+            android:defaultValue="0"
+            android:dialogMessage="@string/enterGoal"
+            android:inputType="number"
+            android:key="calorie_current"
+            android:selectAllOnFocus="true"
+            android:singleLine="true"
+            android:title="@string/calorieIntake" />
+    </PreferenceCategory>
+    <PreferenceCategory app:title="@string/nutritionalSettings">
+        <EditTextPreference
+            android:defaultValue="100"
+            android:dialogMessage="Please enter the calorie preference for filter search"
+            android:inputType="number"
+            android:key="calorie_intake"
+            android:selectAllOnFocus="true"
+            android:singleLine="true"
+            android:summary="Please enter the calorie preference for filter search"
+            android:title="Calorie Intake" />
+
+    </PreferenceCategory>
+    <Preference></Preference>
+    <Preference></Preference>
+    <Preference></Preference>
+
+    <PreferenceCategory android:title="@string/languageSupported">
+        <Preference
+            android:icon="@mipmap/ic_launcher_franceflag_foreground"
+            android:key="key1"
+            android:layout="@layout/settings_header"
+            android:title="Supported by: "></Preference>
+    </PreferenceCategory>
+</PreferenceScreen>
+
